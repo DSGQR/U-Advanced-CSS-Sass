@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+$primary-color: #f9ed69;    // Yellow 
+$secondary-color: #f08a5d;  // Orange 
+$tertiary-color: #b83b5e;   // Pink   
+$dark-text-color: #333;     // Grey
+$light-text-color: #eee;    // White Variation
+
+$button-width: 150px;
+
+nav {
+	margin: 30px;
+  background-color: $primary-color;
+  
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+
+  li {
+    display: inline-block;
+    margin-left: 30px;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    a:link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $dark-text-color;
+    }
+  }
+}
+
+.buttons {
+  float: right;
+}
+
+.btn-main:link,
+.btn-hot:link {
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: $button-width;
+  color: $light-text-color;
+}
+
+.btn-main {
+  &:link {
+    background-color: $secondary-color;
+  }
+
+  &:hover {
+    background-color: darken($secondary-color, 15%);
+  }
+}
+
+.btn-hot {
+  &:link {
+    background-color: $tertiary-color;
+  }
+
+  &:hover {
+    background-color: lighten($tertiary-color, 10%);
+  }
+}
