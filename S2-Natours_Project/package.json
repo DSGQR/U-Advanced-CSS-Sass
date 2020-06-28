@@ -1,0 +1,18 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing Page For Natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DSGQR/U-Advanced-CSS-Sass/tree/master/S2-Natours_Project"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
