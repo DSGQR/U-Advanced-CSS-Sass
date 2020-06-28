@@ -1,0 +1,18 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for Natours Project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DSGQR/U-Advanced-CSS-Sass/tree/master/Section4-SASS-NPM/T26-27_Natours-Sass"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
