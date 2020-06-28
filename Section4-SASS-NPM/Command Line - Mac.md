@@ -10,5 +10,5 @@
 |  **..**   | to return to the parent folder                       | cd ..           |
 |  **mv**   | to move a file                                       | mv script.js .. |
 |  **rm**   | to delete (remove) a file (does not do to trash bin) | rm index.js     |
-| **rm -r** | to delete a folder                                   | r               |
+| **rm -r** | to delete a folder                                   | rm -r js        |
 
